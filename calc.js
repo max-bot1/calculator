@@ -33,7 +33,7 @@ reader.question("What would you like to calculate?", function (input) {
 			break;
 
 		case 'sqrt':
-			console.log(Math.sqrt(num1));
+			console.log(Math.sqrt(num1), Math.sqrt(num2));
 			break;
 	}
 	// This line closes the connection to the command line interface.
